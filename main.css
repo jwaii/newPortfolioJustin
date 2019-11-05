@@ -1,0 +1,91 @@
+
+/*
+body{
+    background-image: linear-gradient(to bottom right, #1FE1B2,#05ABEE);
+}
+*/
+
+.section1, .section2, p{
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.header{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.section1 {
+    background-color: lightpink;
+}
+
+.section2{
+    background-color: lightseagreen;
+}
+
+
+.appScreenShot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
+
+.center, .header{
+    text-align: center;
+
+}
+
+.topnav{
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 45%;
+    height: 25px;
+    position: relative;
+    margin-top: -16px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #F7A4B8;
+    font-size: 16px;
+    word-spacing: 50px;
+}
+
+.title{
+    text-shadow: 3px 3px black;
+}
+
+.active, .projects, .contact, .about{
+    text-decoration: none;
+}
+
+.mail{
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: black;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: white;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: red;
+    }
+  }
