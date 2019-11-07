@@ -16,6 +16,8 @@ body{
     line-height: 30px;
 }
 
+
+
 .header{
     font-size: 40px;
     font-family: 'Lato', sans-serif;
@@ -23,7 +25,7 @@ body{
 }
 
 .section1 {
-    background-color: lightpink;
+    background-color: greenyellow;
 }
 
 .section2{
@@ -70,22 +72,28 @@ body{
     text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
+/* Mobile Styles */
+
+  /* Desktop Styles */
+@media only screen and (min-width: 961px) {
     body {
-      background-color: black;
+      background-color: #B2D6FF; /* Blue */
     }
   }
-  
+
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
-      background-color: white;
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
     }
   }
   
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    body {
-      background-color: red;
-    }
-  }
+
+
