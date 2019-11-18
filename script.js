@@ -1,3 +1,8 @@
-function moveToSegment(){
-    $('topnav').on('click')
-}
+
+
+
+
+$(function() {
+    console.log('Page loaded! Waiting for submit!');
+    watchForm();
+  });
