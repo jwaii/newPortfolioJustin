@@ -40,15 +40,19 @@ body{
     color: white;
     margin-top: 25px;
     line-height: 30px;
+    
 }
 
-
+.section1, .section2{
+  background-color: lightgrey;
+}
 
 .header{
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     
 }
+
 
 
 .appScreenShot{
